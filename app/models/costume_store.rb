@@ -1,5 +1,5 @@
 # Create your CostumeStore class here
-class CreateYourCostumesStores < ActiveRevords::Migration[5.2]
+class CreateYourCostumesStores < ActiveRevords::Base
   def change 
     create_table :costume_stores do |t|
       t.string :name
